@@ -76,7 +76,7 @@ def exit():
         """
     cursor.execute(update_query, (exittime, total_due, ticket_number))
     connection.commit()
-    print("Payment successful. The gate is open. Have a nice day!")
+    print("Payment successful. Have a nice day!")
 
 
 def main():
