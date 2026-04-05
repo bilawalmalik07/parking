@@ -6,8 +6,11 @@ from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 load_dotenv("database.env")
-DATABASE_URL = os.getenv("DATABASE_URL")
-connection = psycopg2.connect(DATABASE_URL)
+try:
+    DATABASE_URL = os.getenv("DATABASE_URL")
+    connection = psycopg2.connect(DATABASE_URL)
+except:
+    print("⚠️ Running in DEMO MODE (Database not connected)")
 
 # Functions
 
