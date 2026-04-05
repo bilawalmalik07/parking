@@ -3,6 +3,7 @@
 A Python-based Command Line Interface (CLI) application for managing a parking lot with a 50-slot capacity. This project integrates a local Python backend with a cloud-hosted Neon (PostgreSQL) database.
 
 Click the button below to run this app instantly in your browser:
+
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/bilawalmalik07/parking)
 
 > [!IMPORTANT]
