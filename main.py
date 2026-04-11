@@ -121,6 +121,7 @@ def main():
         elif choice == "2":
             exit()
         elif choice == "3":
+            print("\nByeeeeeeeeee !!!\n")
             break
         else:
             print("Invalid selection. Try again.")
