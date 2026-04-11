@@ -5,6 +5,9 @@ import math
 from datetime import datetime, timezone
 from dotenv import load_dotenv
 
+# Database
+
+
 try:
     load_dotenv("database.env")
     DATABASE_URL = os.getenv("DATABASE_URL")
@@ -14,6 +17,7 @@ except Exception:
     print("Running in DEMO MODE (No Database)")
     DB_CONNECTED = False
     fake_db = []
+
 # Functions
 
 
