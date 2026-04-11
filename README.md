@@ -17,4 +17,4 @@ Click the button below to run this app instantly in your browser:
 
 - **Real-time Slot Tracking**: Uses SQL `COUNT` to track active parked cars.
 - **Automated Billing**: Calculates fees based on $5 per 2-hour blocks using `math.ceil`.
-- **Persistent Storage**: All tickets, entry times, and payments are stored in a PostgreSQL database.
+- **Persistent Storage**: All tickets, entry times, and payments are stored in PostgreSQL database.
